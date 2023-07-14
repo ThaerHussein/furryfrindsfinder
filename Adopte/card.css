@@ -1,28 +1,14 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  flex-flow: row wrap;
-  gap: 20px;
-  padding: 50px;
-}
 
 .card {
-  width:400px;
-  height: 400px;
+  width:350px;
+  height: 350px;
   border-radius: 25px;
   position: relative;
   transform-style: preserve-3d;
   transition-duration: 1s;
   transition-property: transform;
   border-radius: 25px;
-  box-shadow: black 2px 2px 2px;
+  box-shadow: black 1px 1px 5px;
 }
 
 .card.flip {
@@ -40,7 +26,8 @@ body {
 }
 
 .card .face {
-  background-color: blueviolet;
+  background-image: url('./assets/images/background7.jpg');
+  background-size: 100% 100%;
 }
 
 .card .face .but {
@@ -56,6 +43,6 @@ body {
 }
 
 .card .back {
-  background-color: red;
+  background-color: rgb(148, 112, 112);
   transform: rotateY(180deg);
 }

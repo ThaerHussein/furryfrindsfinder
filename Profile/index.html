@@ -16,7 +16,7 @@
     />
     <meta name="description" content="" />
 
-    <title>About Us</title>
+    <title>Home</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css" />
     <link
@@ -48,30 +48,6 @@
       href="assets/mobirise/css/mbr-additional.css"
       type="text/css"
     />
-    <style>
-      .box-img {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 1000px;
-        flex-wrap: wrap;
-        margin: 0 auto;
-        margin-top: 100px;
-        gap: 55px 2px;
-      }
-
-      .box-img img {
-        width: 450px;
-        height: 450px;
-        border-radius: 10px;
-        filter: grayscale(100%);
-        transition-duration: 0.7s;
-      }
-
-      .box-img img:hover {
-        filter: blur(0px);
-      }
-    </style>
   </head>
   <body>
     <section
@@ -93,7 +69,9 @@
               </a>
             </span>
             <span class="navbar-caption-wrap"
-              ><a class="navbar-caption text-black display-7" href="#"
+              ><a
+                class="navbar-caption text-black display-7"
+                href="https://mobiri.se"
                 >Furry Friends Finder</a
               ></span
             >
@@ -124,8 +102,50 @@
               <li class="nav-item">
                 <a
                   class="nav-link link text-black display-4"
+                  href="../Profile/index.html"
+                  id="profile"
+                  style="display: none"
+                  >Profile</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link link text-black display-4"
                   href="../home_page/index.html"
+                  id="profile"
                   >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link link text-black display-4"
+                  href="../Adopte/index.html"
+                  id="adopte"
+                  >Adopte</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link link text-black display-4"
+                  href="#"
+                  id="adopte"
+                  style="font-weight: bolder"
+                  >Profile</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link link text-black display-4"
+                  href="../Login/index.html"
+                  id="logout"
+                  >LogOut</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link link text-black display-4"
+                  href="../About_Us/index.html"
+                  >About us</a
                 >
               </li>
             </ul>
@@ -133,71 +153,8 @@
         </div>
       </nav>
     </section>
-    <section
-      id="abo-me"
-      style="
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        min-height: calc(100vh - 160px);
-      "
-    >
-      <div
-        style="
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-direction: column;
-          flex-wrap: wrap;
-          padding: 50px;
-        "
-      >
-        <h1 style="margin: 50px">Who We Are ?</h1>
-        <div>
-          <span style="font-weight: 800; color: rgb(221,238,236); font-size: 25px; letter-spacing: 2px; text-shadow: 1px 1px 1px black;">Furry Friends Finder </span>  We are a passionate community
-          dedicated to connecting animals in need with loving homes. Our mission
-          is to promote animal welfare, advocate for responsible pet ownership,
-          and facilitate the adoption process for both animals and potential
-          adopters. At Furry Friends Finder, we believe that every animal
-          deserves a second chance and a loving family. Whether it's a playful
-          puppy, a curious kitten, a majestic dog, or a cuddly rabbit, we work
-          tirelessly to match these wonderful creatures with caring individuals
-          or families who can provide them with a safe and nurturing
-          environment. Our dedicated team of volunteers and staff members are
-          committed to ensuring the well-being of every animal in our care. We
-          provide necessary medical attention, proper nutrition, socialization,
-          and love to help them thrive while they await their forever homes.
-          Through our network of foster homes and partnering shelters, we are
-          able to give these animals the care they deserve while actively
-          seeking their perfect match. For potential adopters, Furry Friends
-          Finder offers a seamless adoption process. We provide comprehensive
-          information about each animal, including their age, breed, personality
-          traits, and any special needs they may have. Our goal is to make sure
-          that the adoption is a perfect fit for both the animal and the
-          adopter, ensuring a lifelong bond of happiness and companionship. In
-          addition to adoption services, Furry Friends Finder also advocates for
-          responsible pet ownership. We provide educational resources on topics
-          such as proper pet care, training, and the importance of
-          spaying/neutering. By raising awareness and promoting responsible
-          practices, we aim to create a more compassionate society for animals.
-          We are grateful for the support and contributions from our community.
-          Whether you're looking to adopt, volunteer, donate, or simply spread
-          the word about our organization, your involvement makes a significant
-          impact on the lives of these furry friends. Thank you for joining us
-          in our mission to make a difference in the lives of animals. Together,
-          we can create a brighter future for all our furry friends.
-        </div>
-        <h1 style="margin-top: 80px">Contact Us</h1>
-          <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 30px; gap: 200px;">
-            Phone Number : 00962779999776
-          </div>
-          <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 20px; gap: 200px;">
-            Email : m.alhaimouni@gmail.com
-          </div>
-          <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 20px; gap: 200px;">
-            Location : LTUC - Airport St. 
-          </div>
-      </div>
+    <section style="min-height: calc(100vh - 160px);">
+
     </section>
     <section
       class="display-7"
@@ -211,7 +168,7 @@
         position: relative;
         height: 100px;
         background-color: rgb(220, 238, 235);
-        border-top: 1px solid rgb(230,230,230);
+        border-top: 1px solid rgb(230, 230, 230);
       "
     >
       <a
@@ -238,5 +195,6 @@
     <script src="assets/ytplayer/index.js"></script>
     <script src="assets/dropdown/js/navbar-dropdown.js"></script>
     <script src="assets/theme/js/script.js"></script>
+    <script src="./adopte.js"></script>
   </body>
 </html>

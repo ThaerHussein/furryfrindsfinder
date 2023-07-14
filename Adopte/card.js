@@ -34,7 +34,7 @@ function generateCard(x) {
   x.appendChild(card);
 }
 
-let body = document.querySelector("body");
+let body = document.querySelector("#cards");
 for (let i = 0; i < 10; i++) {
   generateCard(body);
 }
