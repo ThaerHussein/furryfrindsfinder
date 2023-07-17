@@ -44,7 +44,7 @@
           <div class="login100-pic js-tilt" data-tilt>
             <img src="images/img-01.png" alt="IMG" />
           </div>
-          <form class="login100-form validate-form">
+          <form class="login100-form validate-form" id="l-form">
             <span class="login100-form-title"> Welcome Again </span>
             <div
               class="wrap-input100 validate-input"
@@ -54,7 +54,8 @@
                 class="input100"
                 type="text"
                 name="email"
-                placeholder="Email"
+                id="email"
+                placeholder="ex@abc.com"
               />
               <span class="focus-input100"></span>
               <span class="symbol-input100">
@@ -78,7 +79,9 @@
               </span>
             </div>
             <div class="container-login100-form-btn">
-              <button class="login100-form-btn" id="log-btn">Login</button>
+              <button type="submit" class="login100-form-btn" id="log-btn">
+                Login
+              </button>
             </div>
             <div class="text-center p-t-12">
               <a class="txt2" href="../home_page/index.html">
